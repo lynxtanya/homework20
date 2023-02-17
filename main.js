@@ -24,8 +24,8 @@ productUl.addEventListener('click', (event) => {
     } 
 
     if(event.target.classList.contains('btn-buy')) {
-        productLi.classList.remove('active');
-        subProductLi.classList.remove('sub-active');
+        activeEl.classList.remove('active');
+        activeSubEl.classList.remove('sub-active');
         alert('You buy a product');
     } 
 });
